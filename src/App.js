@@ -6,6 +6,7 @@ import About from './components/About'
 import Services from './components/Services'
 import Experts from './components/Experts'
 import Location from './components/Location'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Services/>
       <Experts/>
       <Location/>
+      <Footer/>
     </>
   )
 }

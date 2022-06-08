@@ -140,10 +140,11 @@
     }
     #maps {
         padding-right: 0;
+        padding-left: 0;
         padding-bottom: 1rem;
-        
     }
     .maps {
+        padding-left: 0;
         border-bottom: 1px solid rgba(254,235,130,255);
     }
     .businessHours { 
