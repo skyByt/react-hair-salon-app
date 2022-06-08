@@ -7,7 +7,7 @@
     align-items: center;
     background: url(/src/components/Assets/background.jpg) no-repeat;
     background-size: cover;
-    z-index: 1;
+
 }
 
 .menu {
@@ -154,6 +154,7 @@ div h3 {
         font-size: 1.4em;
     }
     div h3 { 
+        
         font-size: 1.2em;
     }
     .menu-list {
@@ -164,7 +165,7 @@ div h3 {
     .menu-list-prices {
         font-size: 1.1em;
         padding-right: 1rem;
-        padding-left: 1rem;
+        padding-left: 5rem;
         line-height: 2rem;
     }
     .haircuts {

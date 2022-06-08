@@ -3,9 +3,10 @@
 
 
 .wrapper {
-    background: url(/src/components/Assets/background.jpg) no-repeat;
+    background: black;
     background-size: cover;
-    padding: 5rem 2rem;
+    padding: 3rem 2rem;
+    margin: 0 12px;
 }
 
 .about {
