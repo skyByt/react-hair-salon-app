@@ -12,12 +12,9 @@
     position: absolute !important;
     top: 0;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     z-index: 11;
     background: none;
-    padding: 1rem 5rem;
+    padding: 2rem 5rem;
 }
 
 .navbar-brand {
@@ -25,6 +22,7 @@
     text-align: center;
     font-family: 'Cinzel', sans-serif;
     color: white;
+    padding: 1rem 2rem;
 }
 
 .navbar-brand:hover {
@@ -71,6 +69,7 @@
     justify-content: flex-end;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
+    padding: 1rem 2rem;
 }
 
 .navbar-contact a {
@@ -79,6 +78,7 @@
     color: white;
     cursor: pointer;
     font-size: 1.4em;
+    
 }
 
 #book {
@@ -181,6 +181,9 @@
 
 /**** Small devices ***/
 @media (min-width: 768px) and (max-width: 991.99px) {
+    .navbar-brand {
+        padding: 1rem;
+    }
     .navbar-brand > img{
         display: none;
     }
@@ -192,6 +195,7 @@
     }
     .navbar-contact {
         font-size: 90%;
+        padding: 1rem;
     }
     .navbar-links {
         display: none
@@ -217,8 +221,8 @@
 
 /**** Extra small devices devices ***/
 @media (min-width: 500px) and (max-width: 767.99px) {
-    .navbar {
-        padding: .5rem .5rem;
+    .navbar-brand {
+        padding: 1rem;
     }
     .navbar-brand img{
         display: none;
@@ -231,6 +235,7 @@
     }
     .navbar-contact {
         font-size: 80%;
+        padding: 1rem;
     }
     .navbar-links {
         display: none
