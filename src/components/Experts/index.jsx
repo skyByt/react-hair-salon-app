@@ -7,7 +7,7 @@ import expert3 from '../Assets/expert_3.jpg'
 
 const index = () => {
   return (
-    <div className='container-fluid'>
+    <div id='experts' className='container-fluid'>
        <div id='#squad' className='row squad'>
           <h2 className='experts'>the squad</h2>
           <div className='col-xs-12 col-sm-6 col-md-4 expert'>
