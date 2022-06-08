@@ -1,7 +1,7 @@
-import React, {useEffect, useRef, useState} from 'react'
+import React, {useState} from 'react'
 import './navbar.css'
 
-import logo from '../Assets/Untitled.png'
+import logo from '../Assets/logo.png'
 import {IoMdMenu} from 'react-icons/io'
 import {BsScissors} from 'react-icons/bs'
 import { Offcanvas, Carousel} from 'react-bootstrap'
@@ -55,9 +55,9 @@ const Navbar = () => {
             <span>p r o f e s s i o n a l</span>
           </a>
           <ul className='navbar-links'>
-            <li><a className='navbar-link' href='#'>About</a></li>
-            <li><a className='navbar-link' href='#'>Services</a></li>
-            <li><a className='navbar-link' href='#'>Awards</a></li>
+            <li><a className='navbar-link' href='#about'>About</a></li>
+            <li><a className='navbar-link' href='#services'>Services</a></li>
+            <li><a className='navbar-link' href='#'>Location</a></li>
           </ul>
           <div className='navbar-contact'>
             <a className='phone' href="tel:343-456-3000">343-456-3000</a>
