@@ -1,0 +1,160 @@
+#findUs {
+    background: black;
+    width: 100%;
+}
+
+.wrapper_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-bottom: 2rem;
+}
+
+.findUs {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-family: 'Cinzel', sans-serif;
+    font-size: 3em;
+    color: rgba(254,235,130,255);
+    text-transform: lowercase;
+}
+
+#razor-blade {
+    width: 150px;
+    padding-left: 1rem;
+    padding-right: 2rem;
+
+}
+
+.wrapper h3 {
+    padding-top: 0;
+    padding-bottom: 2rem;
+    font-family: 'Cinzel', sans-serif;
+    font-size: 2.5em;
+    color: white;
+    text-transform: lowercase;
+    text-align: center;
+
+}
+
+#maps {
+    padding-right: 4rem;
+}
+
+.businessHours {
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 2rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.businessHours div {
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.businessHours a {
+    margin-top: 3rem;
+}
+
+.divider {
+    display: none;
+}
+
+/**** Large devices ***/
+@media (min-width: 1200px) {
+}
+
+/**** Medium devices ***/
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+
+}
+
+/**** Small devices ***/
+@media (min-width: 768px) and (max-width: 991.99px) {
+    #maps {
+        padding-right: 2rem;
+    }
+    .businessHours { 
+        padding-left: 1rem;
+    }
+    .businessHours div {
+        font-size: 1.3em;
+    }
+    #razor-blade {
+        width: 120px;
+        padding-left: 0;
+        padding-right: 1rem;
+    
+    }
+}
+
+/**** Extra small devices devices ***/
+@media (min-width: 500px) and (max-width: 767.99px) {
+    #maps {
+        padding-right: 1rem;
+    }
+    .maps {
+        padding-left: 1rem;
+    }
+    .businessHours { 
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .businessHours div {
+        font-size: 1.1em;
+    }
+    #razor-blade {
+        display: none;
+    }
+    .divider {
+        padding-top: 2rem;
+        display: flex;
+        height: 250px;
+        width: 1px;
+        background-color: rgba(254,235,130,255);
+    }
+
+}
+
+/**** Extra extra small devices devices ***/
+@media (max-width: 499.99px) {
+    .wrapper_container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header_3 {
+        padding-top: 1rem;
+    }
+    #razor-blade {
+        display: none;
+    }
+    #maps {
+        padding-right: 0;
+        padding-bottom: 1rem;
+        
+    }
+    .maps {
+        border-bottom: 1px solid rgba(254,235,130,255);
+    }
+    .businessHours { 
+        padding-left: 0;
+    }
+    .businessHours div {
+        font-size: 1.1em;
+    }
+    .divider {
+        display: none;
+    }
+
+}
+

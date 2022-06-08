@@ -5,15 +5,17 @@ import Navbar from './components/Navbar'
 import About from './components/About'
 import Services from './components/Services'
 import Experts from './components/Experts'
+import Location from './components/Location'
 
 const App = () => {
   return (
-    <div id='parent'>
+    <>
       <Navbar/>
       <About/>
       <Services/>
       <Experts/>
-    </div>
+      <Location/>
+    </>
   )
 }
 

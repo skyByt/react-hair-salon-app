@@ -57,7 +57,7 @@ const Navbar = () => {
           <ul className='navbar-links'>
             <li><a className='navbar-link' href='#about'>About</a></li>
             <li><a className='navbar-link' href='#services'>Services</a></li>
-            <li><a className='navbar-link' href='#squad'>Location</a></li>
+            <li><a className='navbar-link' href='#findUs'>Find Us</a></li>
           </ul>
           <div className='navbar-contact'>
             <a className='phone' href="tel:343-456-3000">343-456-3000</a>
