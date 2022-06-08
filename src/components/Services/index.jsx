@@ -9,10 +9,10 @@ const Services = () => {
             <h2>Services</h2>
         </div>
         <div className='menu'>
-            <div className='menu-section'>
+            <div>
                 <h3>haircuts</h3>
-                <div>
-                    <ul className='menu-list d-inline-block'>
+                <div className='haircuts'>
+                    <ul className='menu-list'>
                         <li className='menu-item'>Men Haircut</li>
                         <li className='menu-item'>Senior Haircut</li>
                         <li className='menu-item'>Kid Haircut</li>
@@ -28,13 +28,14 @@ const Services = () => {
                     </ul>
                 </div>
             </div>
-            <div>
-               <img src={scissors} id="scissors" alt='scissors'/>
+            <div id='center'>
+               <img src={scissors} id="scissors" alt='scissors'/> 
+               <div id='separator'></div>
             </div>
             <div>
                 <h3>shaves</h3>
-                <div>
-                    <ul className='menu-list d-inline-block'>
+                <div className='shaves'>
+                    <ul className='menu-list'>
                         <li className='menu-item'>Classic shave</li>
                         <li className='menu-item'>Hot Towel shave</li>
                         <li className='menu-item'>Steam Shave</li>

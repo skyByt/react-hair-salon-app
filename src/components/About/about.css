@@ -54,6 +54,8 @@ img {
 /**** Extra small devices devices ***/
 @media (min-width: 500px) and (max-width: 767.99px) {
     .about {
+        display: flex;
+        justify-content: center;
         padding-top: 2rem;
         padding-left: 0;
         font-size: 1.8em;
@@ -69,14 +71,16 @@ img {
 
 /**** Extra extra small devices devices ***/
 @media (max-width: 500px) {
-    .info h3 {
+    .about {
+        display: flex;
+        justify-content: center;
         padding-top: 2rem;
         font-size: 1.4em;
         padding-left: 0;
     }
 
     .info p {
-        font-size: 1.2em;
+        font-size: 1.1em;
         padding-left: 0;
         width: 100%;
     } 

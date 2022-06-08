@@ -263,8 +263,8 @@
 
 /**** Extra extra small devices devices ***/
 @media (max-width: 499.99px) {
-    .navbar {
-        padding: .5rem .5rem;
+    .navbar-brand {
+        padding: 0;
     }
     .navbar-brand img{
         display: none;
@@ -277,6 +277,7 @@
     }
     .navbar-contact {
         font-size: 80%;
+        padding: 0;
     }
     .navbar-links {
         display: none
