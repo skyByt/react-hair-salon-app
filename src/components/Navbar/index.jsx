@@ -19,28 +19,28 @@ const Navbar = () => {
    return (
      <div className='banner-container'>
         <Carousel  className='carousel' controls={false} keyboard={false}>
-            <Carousel.Item interval={5000}>
+            <Carousel.Item interval={3000}>
               <img
                 className="d-block w-100 img"
                 src={img1}
                 alt="First slide"
               />
             </Carousel.Item>
-            <Carousel.Item interval={5000}>
+            <Carousel.Item interval={3000}>
               <img
                 className="d-block w-100 img"
                 src={img2}
                 alt="Second slide"
               />
             </Carousel.Item>
-            <Carousel.Item interval={5000}>
+            <Carousel.Item interval={3000}>
               <img
                 className="d-block w-100 img"
                 src={img3}
                 alt="Third slide"
               />
             </Carousel.Item>
-            <Carousel.Item interval={5000}>
+            <Carousel.Item interval={3000}>
               <img
                 className="d-block w-100 img"
                 src={img4}

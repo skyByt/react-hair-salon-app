@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: row;
+    padding-bottom: 2rem;
 }
 
 div h2 {
@@ -39,18 +40,25 @@ div h3 {
     width: 200px;
 }
 
+.haircuts {
+    display: flex;
+}
+.shaves {
+    display: flex;
+}
+
 .menu-list {
     list-style: none;
     font-size: 1.5em;
     color: white;
     font-family: 'Montserrat', sans-serif;
     line-height: 5rem;
+    padding-left: 4rem;
 }
-
 
 .menu-list-prices {
     padding-right: 4rem;
-    padding-left: 10rem;
+    padding-left: 6rem;
     list-style: none;
     font-size: 1.5em;
     color: white;
@@ -58,23 +66,116 @@ div h3 {
     line-height: 5rem;
 }
 
+#separator {
+    display: none;
+}
+
 /**** Large devices ***/
 @media (min-width: 1200px) {
-
 }
 
 /**** Medium devices ***/
 @media (min-width: 992px) and (max-width: 1199.99px) {
+    .menu-list {
+        padding-left: 2rem;
+    }
+    .menu-list-prices {
+        padding-right: 2rem;
+        padding-left: 4rem;
+    }
 }
 
 /**** Small devices ***/
 @media (min-width: 768px) and (max-width: 991.99px) {
+    div h2 {
+        font-size: 2.5em;
+    }
+    div h3 { 
+        font-size: 2em;
+    }
+    .menu-list {
+        font-size: 1.3em;
+        padding-left: 1rem;
+        line-height: 4rem;
+    }
+    .menu-list-prices {
+        font-size: 1.3em;
+        padding-right: 1rem;
+        padding-left: 2rem;
+        line-height: 4rem;
+    }
+    #scissors {
+        width: 150px;
+    }
 }
 
 /**** Extra small devices devices ***/
 @media (min-width: 500px) and (max-width: 767.99px) {
+    div h2 {
+        font-size: 2em;
+    }
+    div h3 { 
+        font-size: 1.5em;
+    }
+    .menu-list {
+        font-size: 1.2em;
+        padding-left: 1rem;
+        line-height: 2rem;
+    }
+    .menu-list-prices {
+        font-size: 1.2em;
+        padding-right: 1rem;
+        padding-left: .5rem;
+        line-height: 2rem;
+    }
+    #scissors {
+       display: none;
+    }
+    #center {
+        padding-top: 2rem;
+    }
+    #separator {
+        padding-top: 2rem;
+        display: flex;
+        height: 170px;
+        width: 1px;
+        background-color: rgba(254,235,130,255);
+    }
 }
 
 /**** Extra extra small devices devices ***/
-@media (max-width: 500px) { 
+@media (max-width: 499.99px) {
+    .menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    div h2 {
+        font-size: 1.4em;
+    }
+    div h3 { 
+        font-size: 1.2em;
+    }
+    .menu-list {
+        font-size: 1.1em;
+        padding-left: 1rem;
+        line-height: 2rem;
+    }
+    .menu-list-prices {
+        font-size: 1.1em;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        line-height: 2rem;
+    }
+    .haircuts {
+        padding-bottom: 1rem;
+        border-bottom: 1px solid rgba(254,235,130,255);
+    }
+    #scissors {
+       display: none;
+    }
+    #separator {
+        display: none;
+    }
+
 }
