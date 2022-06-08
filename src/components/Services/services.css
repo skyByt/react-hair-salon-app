@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+#services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(/src/components/Assets/background.jpg) no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+div h2 {
+    padding-bottom: 1rem;
+    text-align: center;
+    font-family: 'Cinzel', sans-serif;
+    font-size: 3em;
+    color: rgba(254,235,130,255);
+    text-transform: lowercase;
+}
+
+div h3 {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 2.5em;
+    color: white;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+#scissors {
+    width: 200px;
+}
+
+.menu-list {
+    list-style: none;
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 5rem;
+}
+
+
+.menu-list-prices {
+    padding-right: 4rem;
+    padding-left: 10rem;
+    list-style: none;
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 5rem;
+}
+
+/**** Large devices ***/
+@media (min-width: 1200px) {
+
+}
+
+/**** Medium devices ***/
+@media (min-width: 992px) and (max-width: 1199.99px) {
+}
+
+/**** Small devices ***/
+@media (min-width: 768px) and (max-width: 991.99px) {
+}
+
+/**** Extra small devices devices ***/
+@media (min-width: 500px) and (max-width: 767.99px) {
+}
+
+/**** Extra extra small devices devices ***/
+@media (max-width: 500px) { 
+}

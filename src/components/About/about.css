@@ -3,15 +3,12 @@
 
 
 .wrapper {
-    background-color: black;
+    background: url(/src/components/Assets/background.jpg) no-repeat;
+    background-size: cover;
     padding: 5rem 2rem;
 }
 
-.info {
-    border-left: 1px solid rgba(254,235,130,255);
-}
-
-.info h3 {
+.about {
     
     padding-left: 1rem;
     font-family: 'Cinzel', sans-serif;
@@ -37,40 +34,37 @@ img {
 
 /**** Medium devices ***/
 @media (min-width: 992px) and (max-width: 1199.99px) {
-    .info p {
+    .about {
         width: 100%;
     }
 }
 
 /**** Small devices ***/
 @media (min-width: 768px) and (max-width: 991.99px) {
-    .info h3 {
+    .about {
         font-size: 2.5em;
     }
 
     .info p {
-        font-size: 1em;
+        font-size: 1.3em;
         width: 100%;
     }
 }
 
 /**** Extra small devices devices ***/
 @media (min-width: 500px) and (max-width: 767.99px) {
-    .info h3 {
+    .about {
         padding-top: 2rem;
         padding-left: 0;
         font-size: 1.8em;
     }
 
     .info p {
-        font-size: 1em;
+        font-size: 1.2em;
         padding-left: 0;
         width: 100%;
     }
 
-    .info {
-        border-left: 0;
-    }
 }
 
 /**** Extra extra small devices devices ***/
@@ -82,12 +76,8 @@ img {
     }
 
     .info p {
-        font-size: .8em;
+        font-size: 1.2em;
         padding-left: 0;
         width: 100%;
     } 
-    
-    .info {
-        border-left: 0;
-    }
 }
