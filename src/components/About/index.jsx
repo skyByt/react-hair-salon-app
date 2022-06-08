@@ -5,7 +5,8 @@ import img from '../Assets/about-img.jpg'
 
 const About = () => {
   return (
-    <div id='about' className='wrapper row'>
+    <div className='container-fluid'>
+          <div id='about' className='wrapper row'>
       <div className='img col-xs-12 col-sm-12 col-md-6'>
       <img src={img} className='img-flex' width={400} alt='barbershop'/>
       </div>
@@ -17,6 +18,7 @@ const About = () => {
           commodo consequat.
         </p>
       </div>
+    </div>
     </div>
   )
 }

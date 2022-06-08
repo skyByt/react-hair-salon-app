@@ -57,7 +57,7 @@ const Navbar = () => {
           <ul className='navbar-links'>
             <li><a className='navbar-link' href='#about'>About</a></li>
             <li><a className='navbar-link' href='#services'>Services</a></li>
-            <li><a className='navbar-link' href='#'>Location</a></li>
+            <li><a className='navbar-link' href='#squad'>Location</a></li>
           </ul>
           <div className='navbar-contact'>
             <a className='phone' href="tel:343-456-3000">343-456-3000</a>
@@ -76,7 +76,7 @@ const Navbar = () => {
           </Offcanvas>
         </nav>
         <div className='sub-header container-fluid'>
-          <h2>the cut you trust</h2>
+          <h2 className='header2'>the cut you trust</h2>
           <span>Classic barbershop for men </span>
           <a className='container-fluid-button' href='#'>Book now</a>
         </div>

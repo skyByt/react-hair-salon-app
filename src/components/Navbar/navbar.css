@@ -146,10 +146,11 @@
     list-style: none;  
 }
 
-.sub-header h2 {
+.sub-header .header2 {
     color: white;
     font-size: 3em;
     font-family: 'Cinzel', sans-serif;
+    padding: 0;
 }
 
 .sub-header span {
@@ -207,7 +208,7 @@
     .navbar-expand-icon {
         display: flex;
     }
-    .sub-header h2 {
+    .sub-header .header2 {
         font-size: 2.5em;
     }
     .sub-header span {
@@ -247,7 +248,7 @@
     .navbar-expand-icon {
         display: flex;
     }
-    .sub-header h2 {
+    .sub-header .header2 {
         font-size: 1.8em;
     }
     .sub-header span {
@@ -288,7 +289,7 @@
     .navbar-expand-icon {
         display: flex;
     }
-    .sub-header h2 {
+    .sub-header .header2 {
         font-size: 1.4em;
     }
     .sub-header span {
