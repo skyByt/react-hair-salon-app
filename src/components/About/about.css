@@ -31,11 +31,19 @@ img {
 
 /**** Large devices ***/
 @media (min-width: 1200px) {
+    .info p {
+        font-size: 1.3em;
+        width: 80%;
+    }
 }
 
 /**** Medium devices ***/
 @media (min-width: 992px) and (max-width: 1199.99px) {
     .about {
+        width: 100%;
+    }
+    .info p {
+        font-size: 1.3em;
         width: 100%;
     }
 }

@@ -36,11 +36,11 @@ const Services = () => {
                 <h3>shaves</h3>
                 <div className='shaves'>
                     <ul className='menu-list'>
-                        <li className='menu-item'>Classic shave</li>
-                        <li className='menu-item'>Hot Towel shave</li>
+                        <li className='menu-item'>Classic Shave</li>
+                        <li className='menu-item'>Hot Towel Shave</li>
                         <li className='menu-item'>Steam Shave</li>
-                        <li className='menu-item'>Head shave</li>
-                        <li className='menu-item'>Beard trimming</li>
+                        <li className='menu-item'>Head Shave</li>
+                        <li className='menu-item'>Beard Trimming</li>
                     </ul>
                     <ul className='menu-list-prices d-inline-block'>
                         <li className='menu-item'>$30</li>
