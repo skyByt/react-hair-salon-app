@@ -3,7 +3,7 @@ import './location.css'
 
 import blade from '../Assets/razor_blade.png'
 
-const Location = () => {
+const Location = ({setHide}) => {
   return (
     <div id='findUs'>
       <h2>Find Us</h2>
@@ -21,7 +21,7 @@ const Location = () => {
           <h3 className='header_3'>Business hours</h3>
           <div>Mon - Thur: 10AM - 6PM</div>
           <div>Fri - Sat: 10AM - 4PM</div>
-          <a className='container-fluid-button' href='#'>Book now</a>
+          <a className='container-fluid-button' onClick={() => {setHide(true)}} href='#book'>Book now</a>
         </div>
       </div>
     </div>

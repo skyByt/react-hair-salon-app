@@ -14,24 +14,23 @@ const index = () => {
             <img className='expert' src={expert1} alt='expert1'/>
             <h3>Brad</h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua.
+                Brad is a very talented professional with deep expertise in classic haircuts and styles.
             </p>
         </div>
         <div className='col-xs-12 col-sm-6 col-md-4 expert'>
           <img className='expert' src={expert2} alt='expert1'/>
           <h3>Maxim</h3>
           <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-              dolore magna aliqua.
+          If you want a modern haircut, Maxim is the man to choose. He gained a lot popularity 
+          throughout the years thanks to his magic touch.
           </p>
         </div>
         <div id='expert3' className='col-xs-12 col-sm-12 col-md-4 expert'>
           <img className='expert' src={expert3} alt='expert1'/>
           <h3>Vittorio</h3>
           <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-              dolore magna aliqua.
+            Need an advice or wanna try a new haircut? Vittorio is here. Some people say that 
+            he started cutting his own hair when he was 6.
           </p>
         </div>
       </div>

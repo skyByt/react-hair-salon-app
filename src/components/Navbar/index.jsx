@@ -10,9 +10,9 @@ import img2 from '../Assets/slide_img_2.jpg'
 import img3 from '../Assets/slide_img_3.jpg'
 import img4 from '../Assets/slide_img_4.jpg'
 
-const Navbar = () => {
+const Navbar = ({setHide}) => {
    const [show, setShow] = useState(false);
-  
+
    const handleClose = () => setShow(false);
    const handleShow = () => setShow(true);
 
@@ -57,7 +57,7 @@ const Navbar = () => {
           <ul className='navbar-links'>
             <li><a className='navbar-link' href='#about'>About</a></li>
             <li><a className='navbar-link' href='#services'>Services</a></li>
-            <li><a className='navbar-link' href='#findUs'>Find Us</a></li>
+            <li><a className='navbar-link' href='#findUs'>Location</a></li>
           </ul>
           <div className='navbar-contact'>
             <a className='phone' href="tel:343-456-3000">343-456-3000</a>
@@ -67,10 +67,9 @@ const Navbar = () => {
             <Offcanvas.Body id='sidebar-body'>
               <BsScissors className='sidebar-icon' onClick={handleClose}/>
               <ul className='sidebar-links'>
-                  <li><a className='sidebar-link' href='#' onClick={handleClose}>About</a></li>
-                  <li><a className='sidebar-link' href='#' onClick={handleClose}>Services</a></li>
-                  <li><a className='sidebar-link' href='#' onClick={handleClose}>Awards</a></li>
-                  <li><a className='sidebar-link d-block d-sm-none' href='#' onClick={handleClose}>Book now</a></li>
+                  <li><a className='sidebar-link' href='#about' onClick={handleClose}>About</a></li>
+                  <li><a className='sidebar-link' href='#services' onClick={handleClose}>Services</a></li>
+                  <li><a className='sidebar-link' href='#findUs' onClick={handleClose}>Location</a></li>
               </ul>
             </Offcanvas.Body>
           </Offcanvas>
@@ -78,7 +77,7 @@ const Navbar = () => {
         <div className='sub-header container-fluid'>
           <h2 className='header2'>the cut you trust</h2>
           <span>Classic barbershop for men </span>
-          <a className='container-fluid-button' href='#'>Book now</a>
+          <a onClick={() => {setHide(true)}} className='container-fluid-button' href='#book'>Book now</a>
         </div>
      </div>
   )
