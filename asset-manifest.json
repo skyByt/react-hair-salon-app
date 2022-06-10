@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-hair-salon-app/static/css/main.8219157a.css",
+    "main.js": "/react-hair-salon-app/static/js/main.8531df5d.js",
+    "static/media/slide_img_1.jpg": "/react-hair-salon-app/static/media/slide_img_1.202d695f6f9cd17bf66a.jpg",
+    "static/media/expert_3.jpg": "/react-hair-salon-app/static/media/expert_3.47893d3da0c9e30bad0a.jpg",
+    "static/media/expert_1.jpg": "/react-hair-salon-app/static/media/expert_1.8eab0558af43488fc105.jpg",
+    "static/media/expert_2.jpg": "/react-hair-salon-app/static/media/expert_2.6c1248e6395364f06229.jpg",
+    "static/media/background_3.jpg": "/react-hair-salon-app/static/media/background_3.d6af169d5e625967bfd9.jpg",
+    "static/media/background.jpg": "/react-hair-salon-app/static/media/background.33ca99f9e6bc718401bf.jpg",
+    "static/media/background_2.jpg": "/react-hair-salon-app/static/media/background_2.71552fea79a3cd43238e.jpg",
+    "static/media/slide_img_4.jpg": "/react-hair-salon-app/static/media/slide_img_4.7c0e529bd69b12e2b13e.jpg",
+    "static/media/slide_img_2.jpg": "/react-hair-salon-app/static/media/slide_img_2.ddb2f9597ac328f7f53a.jpg",
+    "static/media/slide_img_3.jpg": "/react-hair-salon-app/static/media/slide_img_3.20d3731e8cc8181a9a6c.jpg",
+    "static/media/about-img.jpg": "/react-hair-salon-app/static/media/about-img.44ae35edb3c757826913.jpg",
+    "static/media/razor_blade.png": "/react-hair-salon-app/static/media/razor_blade.73dbbdc6b191adbead12.png",
+    "static/media/scissors.png": "/react-hair-salon-app/static/media/scissors.6d27c13c2e9dd79091b8.png",
+    "index.html": "/react-hair-salon-app/index.html",
+    "main.8219157a.css.map": "/react-hair-salon-app/static/css/main.8219157a.css.map",
+    "main.8531df5d.js.map": "/react-hair-salon-app/static/js/main.8531df5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8219157a.css",
+    "static/js/main.8531df5d.js"
+  ]
+}
